@@ -1,6 +1,8 @@
 $scratch = 'C:\scratch'
 $devopsmc = 'C:\Users\kanadmin\Desktop\VSWorkspace\DevOpsMC'
 
+
+
 #Check version
 git --version
 
@@ -29,8 +31,8 @@ git remote show origin
 #Can replace --global with --local to set values for a specific repo if required
 git config --global --list    #care about username and email
 
-git config --global user.name "John Savill"
-git config --global user.email john@savilltech.com
+git config --global user.name "kanhaiya-nonprod"
+git config --global user.email kanhaiya.singh.az9@outlook.com
 
 git config --list --show-origin      #see where coming from :q
 git config --list
